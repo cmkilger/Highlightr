@@ -45,11 +45,11 @@ open class Theme {
     open var themeBackgroundColor : RPColor!
     
     /**
-     Initialize the theme with the given theme name.
+     Initialize the theme with the given theme CSS.
      
      - parameter themeString: Theme to use.
      */
-    init(themeString: String)
+    public init(themeString: String)
     {
         theme = themeString
         setCodeFont(RPFont(name: "Courier", size: 14)!)
